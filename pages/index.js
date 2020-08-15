@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import Head from "next/head";
-const apiKey = "c987c3a92e43e0f1e017";
+const apiKey = "f205970f3571f475aee5";
 import axios from 'axios';
 import '../styles/Home.module.css'
 
@@ -27,7 +27,7 @@ class Input extends Component{
                 <div className="flex items-center px-8 my-12">
                     <img src="/USD.png" width="30" className="mx-autor " alt="USD" />
                     <h1 className="text-center px-2">USD:</h1>
-                    <input className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-1  appearance-none leading-normal" type="text" value={parseFloat(this.state.value).toFixed(2)} onChange={this.handleChange}/>
+                    <input className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-1  appearance-none leading-normal" type="text" value={this.state.value} onChange={this.handleChange}/>
                 </div>
 
                 <div className="flex items-center px-8 ">
@@ -74,6 +74,8 @@ class Home extends Component{
 
 
     render() {
+
+        console.log("teste");
 
         if(this.state.currencyUSD !== 0  ||  this.state.currencyBRL !== 0 )
             timeout = 10000000;
