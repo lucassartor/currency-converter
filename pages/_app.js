@@ -3,10 +3,11 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
 
-  const color = randomColor();
+    const bgColor = randomColor();
+
 
   return (
-      <div style={{backgroundColor: color}} className="w-max">
+      <div style={{backgroundColor: bgColor}} className="w-max">
         <Component {...pageProps} />
       </div>
   );
