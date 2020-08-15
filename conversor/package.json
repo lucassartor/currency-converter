@@ -1,0 +1,24 @@
+{
+  "name": "conversor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.19.2",
+    "next": "9.5.2",
+    "randomcolor": "^0.6.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "swr": "^0.3.0",
+    "tailwindcss": "^1.6.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0"
+  }
+}
