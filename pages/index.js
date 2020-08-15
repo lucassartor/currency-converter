@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import Head from "next/head";
 const apiKey = "f205970f3571f475aee5";
 import axios from 'axios';
-import '../styles/Home.module.css'
 
 let timeout = 0;
 
@@ -74,9 +73,6 @@ class Home extends Component{
 
 
     render() {
-
-        console.log("teste");
-
         if(this.state.currencyUSD !== 0  ||  this.state.currencyBRL !== 0 )
             timeout = 10000000;
 

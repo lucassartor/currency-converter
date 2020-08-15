@@ -4,22 +4,9 @@
 
 html,
 body {
-  @apply h-screen;
 
   padding: 0;
   margin: 0;
   font-family: "Open Sans"
 }
 
-#__next{
-  @apply h-screen flex flex-col;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
