@@ -3,7 +3,7 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
 
-  const color = randomColor();
+
 
   return (
       <div style={{backgroundColor: color}}>
