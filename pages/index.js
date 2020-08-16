@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Head from "next/head";
 const apiKey = "f205970f3571f475aee5";
 import axios from 'axios';
+import "../styles/Home.module.css";
 
 let timeout = 0;
 
@@ -39,6 +40,8 @@ class Input extends Component{
         );
     }
 }
+
+
 
 
 class Home extends Component{
@@ -79,7 +82,7 @@ class Home extends Component{
         this.fetchCurrency("USD","BRL");
 
         return(
-            <div className="flex items-center justify-center h-screen bg-black" >
+            <div className="flex items-center justify-center h-screen" >
                 <Head>
                     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
                 </Head>
