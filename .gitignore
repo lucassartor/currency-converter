@@ -20,6 +20,7 @@
 *.pem
 ./idea
 ./idea/
+.idea
 
 # debug
 npm-debug.log*
