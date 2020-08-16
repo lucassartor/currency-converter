@@ -9,6 +9,9 @@ body {
 
   margin: 0 !important;
   padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
   font-family: "Open Sans", serif
 }
