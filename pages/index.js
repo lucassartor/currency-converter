@@ -78,7 +78,7 @@ class Input extends Component {
                              alt={this.state.firstCurrencyName}/>
                         <h1 className="text-center px-2">{this.state.firstCurrencyName}:</h1>
                         <input
-                            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-1  appearance-none leading-normal"
+                            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2  appearance-none leading-normal"
                             type="text" value={this.state.value} onChange={this.handleChange}/>
 
                         <select value={this.state.firstCurrencyName} className="block w-full bg-gray-200 border border-gray-200 text-gray-700 ml-3 py-2 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
@@ -100,7 +100,7 @@ class Input extends Component {
                         <h1 className="text-center px-2">{this.state.secondCurrencyName}:</h1>
 
                         <input
-                            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-1  appearance-none leading-normal"
+                            className="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2  appearance-none leading-normal"
                             type="text" value={parseFloat(this.state.value * this.state.secondCurrency).toFixed(2)}
                             onChange={this.handleChange}/>
 
